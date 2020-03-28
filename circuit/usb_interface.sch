@@ -1,0 +1,305 @@
+EESchema Schematic File Version 4
+LIBS:power_distributor-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_USB:FT230XS U?
+U 1 1 5E3A28B4
+P 6450 3900
+F 0 "U?" H 5950 4500 50  0000 C CNN
+F 1 "FT230XS" H 6800 4500 50  0000 C CNN
+F 2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" H 6900 3250 50  0001 C CNN
+F 3 "http://www.ftdichip.com/Products/ICs/FT230X.html" H 6450 3900 50  0001 C CNN
+	1    6450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite_Small L?
+U 1 1 5E3A4186
+P 4400 2950
+F 0 "L?" V 4605 2950 50  0000 C CNN
+F 1 "600R 2A" V 4514 2950 50  0000 C CNN
+F 2 "" H 4400 2950 50  0001 C CNN
+F 3 "~" H 4400 2950 50  0001 C CNN
+	1    4400 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:USB_B_Mini J?
+U 1 1 5E3A5A80
+P 3350 3900
+F 0 "J?" H 3120 3797 50  0000 R CNN
+F 1 "USB_B_Mini" H 3120 3888 50  0000 R CNN
+F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 3500 3850 50  0001 C CNN
+F 3 "~" H 3500 3850 50  0001 C CNN
+	1    3350 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E3A7B1F
+P 4750 3050
+F 0 "C?" H 4842 3096 50  0000 L CNN
+F 1 "0.1uF" H 4842 3005 50  0000 L CNN
+F 2 "" H 4750 3050 50  0001 C CNN
+F 3 "~" H 4750 3050 50  0001 C CNN
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E3A73B5
+P 5250 3800
+F 0 "R?" V 5045 3800 50  0000 C CNN
+F 1 "27" V 5136 3800 50  0000 C CNN
+F 2 "" H 5250 3800 50  0001 C CNN
+F 3 "~" H 5250 3800 50  0001 C CNN
+	1    5250 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E3A8C5C
+P 5250 3900
+F 0 "R?" V 5450 3900 50  0000 C CNN
+F 1 "27" V 5350 3900 50  0000 C CNN
+F 2 "" H 5250 3900 50  0001 C CNN
+F 3 "~" H 5250 3900 50  0001 C CNN
+	1    5250 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E3AA3FC
+P 5550 4450
+F 0 "C?" H 5642 4496 50  0000 L CNN
+F 1 "0.1uF" H 5642 4405 50  0000 L CNN
+F 2 "" H 5550 4450 50  0001 C CNN
+F 3 "~" H 5550 4450 50  0001 C CNN
+	1    5550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E3ACAD4
+P 5150 3050
+F 0 "C?" H 5242 3096 50  0000 L CNN
+F 1 "4.7uF" H 5242 3005 50  0000 L CNN
+F 2 "" H 5150 3050 50  0001 C CNN
+F 3 "~" H 5150 3050 50  0001 C CNN
+	1    5150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E3ACDD1
+P 4050 3050
+F 0 "C?" H 4142 3096 50  0000 L CNN
+F 1 "0.01uF" H 4142 3005 50  0000 L CNN
+F 2 "" H 4050 3050 50  0001 C CNN
+F 3 "~" H 4050 3050 50  0001 C CNN
+	1    4050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E3AD0FC
+P 4800 4050
+F 0 "C?" H 4892 4096 50  0000 L CNN
+F 1 "47pF" H 4892 4005 50  0000 L CNN
+F 2 "" H 4800 4050 50  0001 C CNN
+F 3 "~" H 4800 4050 50  0001 C CNN
+	1    4800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E3ADDE6
+P 4450 4050
+F 0 "C?" H 4542 4096 50  0000 L CNN
+F 1 "47pF" H 4542 4005 50  0000 L CNN
+F 2 "" H 4450 4050 50  0001 C CNN
+F 3 "~" H 4450 4050 50  0001 C CNN
+	1    4450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5E3B9153
+P 5550 4600
+F 0 "#PWR0115" H 5550 4350 50  0001 C CNN
+F 1 "GND" H 5555 4427 50  0000 C CNN
+F 2 "" H 5550 4600 50  0001 C CNN
+F 3 "" H 5550 4600 50  0001 C CNN
+	1    5550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3800 4450 3800
+Wire Wire Line
+	5150 3900 4800 3900
+Wire Wire Line
+	5350 3800 5750 3800
+Wire Wire Line
+	5750 3900 5350 3900
+Wire Wire Line
+	4800 3950 4800 3900
+Connection ~ 4800 3900
+Wire Wire Line
+	4800 3900 3650 3900
+Wire Wire Line
+	4450 3950 4450 3800
+Connection ~ 4450 3800
+Wire Wire Line
+	4450 3800 5150 3800
+Wire Wire Line
+	4450 4150 4600 4150
+Wire Wire Line
+	5750 4100 5550 4100
+Wire Wire Line
+	5550 4100 5550 4350
+Wire Wire Line
+	5550 4550 5550 4600
+Wire Wire Line
+	5550 4600 6350 4600
+Wire Wire Line
+	6350 4600 6550 4600
+Connection ~ 6350 4600
+Wire Wire Line
+	4600 4150 4600 4600
+Wire Wire Line
+	4600 4600 5550 4600
+Connection ~ 4600 4150
+Wire Wire Line
+	4600 4150 4800 4150
+Connection ~ 5550 4600
+Wire Wire Line
+	5750 3500 5550 3500
+Wire Wire Line
+	5550 3500 5550 4100
+Connection ~ 5550 4100
+Wire Wire Line
+	3650 3700 3700 3700
+Wire Wire Line
+	3700 3700 3700 3500
+Wire Wire Line
+	3700 3500 3350 3500
+Wire Wire Line
+	3350 3500 3250 3500
+Connection ~ 3350 3500
+Wire Wire Line
+	3700 3700 4250 3700
+Wire Wire Line
+	4250 3700 4250 4600
+Wire Wire Line
+	4250 4600 4600 4600
+Connection ~ 3700 3700
+Connection ~ 4600 4600
+Wire Wire Line
+	5550 3500 5550 3100
+Wire Wire Line
+	5550 3100 6550 3100
+Wire Wire Line
+	6550 3100 6550 3200
+Connection ~ 5550 3500
+Wire Wire Line
+	3650 4100 3850 4100
+Wire Wire Line
+	3850 4100 3850 2950
+Wire Wire Line
+	3850 2950 4050 2950
+Wire Wire Line
+	4050 2950 4300 2950
+Connection ~ 4050 2950
+Wire Wire Line
+	4500 2950 4750 2950
+Wire Wire Line
+	4750 2950 5150 2950
+Connection ~ 4750 2950
+Wire Wire Line
+	4050 3150 4250 3150
+Wire Wire Line
+	4750 3150 5150 3150
+Connection ~ 4750 3150
+Wire Wire Line
+	4250 3700 4250 3150
+Connection ~ 4250 3700
+Connection ~ 4250 3150
+Wire Wire Line
+	4250 3150 4750 3150
+Wire Wire Line
+	5150 2950 6350 2950
+Wire Wire Line
+	6350 2950 6350 3200
+Connection ~ 5150 2950
+$Comp
+L power:VBUS #PWR0116
+U 1 1 5E3C60CE
+P 6350 2950
+F 0 "#PWR0116" H 6350 2800 50  0001 C CNN
+F 1 "VBUS" H 6365 3123 50  0000 C CNN
+F 2 "" H 6350 2950 50  0001 C CNN
+F 3 "" H 6350 2950 50  0001 C CNN
+	1    6350 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 2950
+$Comp
+L power:+3.3V #PWR0117
+U 1 1 5E3D3E0D
+P 6550 2950
+F 0 "#PWR0117" H 6550 2800 50  0001 C CNN
+F 1 "+3.3V" H 6565 3123 50  0000 C CNN
+F 2 "" H 6550 2950 50  0001 C CNN
+F 3 "" H 6550 2950 50  0001 C CNN
+	1    6550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3100 6550 2950
+Connection ~ 6550 3100
+Text HLabel 7650 3500 2    50   Input ~ 0
+TXD
+Text HLabel 7650 3600 2    50   Input ~ 0
+RXD
+Text HLabel 7650 3700 2    50   Input ~ 0
+~RTS
+Text HLabel 7650 3800 2    50   Input ~ 0
+~CTS
+Text HLabel 7650 4000 2    50   Input ~ 0
+CBUS0
+Text HLabel 7650 4100 2    50   Input ~ 0
+CBUS1
+Text HLabel 7650 4200 2    50   Input ~ 0
+CBUS2
+Text HLabel 7650 4300 2    50   Input ~ 0
+CBUS3
+Wire Wire Line
+	7150 3500 7650 3500
+Wire Wire Line
+	7650 3600 7150 3600
+Wire Wire Line
+	7150 3700 7650 3700
+Wire Wire Line
+	7650 3800 7150 3800
+Wire Wire Line
+	7150 4000 7650 4000
+Wire Wire Line
+	7650 4100 7150 4100
+Wire Wire Line
+	7150 4200 7650 4200
+Wire Wire Line
+	7650 4300 7150 4300
+$EndSCHEMATC
