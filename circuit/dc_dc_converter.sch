@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:power_distributor-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 12
 Title ""
 Date ""
 Rev ""
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 3250 2150 0    50   Input ~ 0
-COMPUTER_EN
+EN_12V
 Text HLabel 3250 1900 0    50   Input ~ 0
 +BATT
 $Sheet
@@ -80,14 +81,7 @@ Connection ~ 4800 4200
 Wire Wire Line
 	3250 2150 4400 2150
 Wire Wire Line
-	4400 2150 4400 2600
-Wire Wire Line
 	4400 2600 5100 2600
-Wire Wire Line
-	5100 3550 4400 3550
-Wire Wire Line
-	4400 3550 4400 2600
-Connection ~ 4400 2600
 Text HLabel 7650 1900 2    50   Output ~ 0
 +12V_ISOLATED_1
 Text HLabel 7650 2000 2    50   Output ~ 0
@@ -128,12 +122,22 @@ Wire Wire Line
 	6300 4950 7650 4950
 Wire Wire Line
 	6300 5050 7650 5050
-Text HLabel 3250 2250 0    50   Input ~ 0
-ACTUATOR_EN
+Text HLabel 3250 2500 0    50   Input ~ 0
+EN_8.4V
+Text HLabel 3250 2300 0    50   Input ~ 0
+EN_5V
 Wire Wire Line
-	4300 2250 4300 5250
+	4400 2150 4400 2600
 Wire Wire Line
-	4300 5250 5100 5250
+	4300 3550 4300 2300
 Wire Wire Line
-	3250 2250 4300 2250
+	4300 2300 3250 2300
+Wire Wire Line
+	4300 3550 5100 3550
+Wire Wire Line
+	3250 2500 4200 2500
+Wire Wire Line
+	4200 2500 4200 5250
+Wire Wire Line
+	4200 5250 5100 5250
 $EndSCHEMATC
