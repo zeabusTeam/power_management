@@ -47,17 +47,6 @@ Wire Wire Line
 	5200 2500 5200 2650
 Wire Wire Line
 	7000 2250 7000 2950
-Wire Wire Line
-	6500 2250 6700 2250
-Wire Wire Line
-	5550 2250 5700 2250
-Connection ~ 5550 2250
-Wire Wire Line
-	5550 2450 5550 2250
-Wire Wire Line
-	5700 2450 5550 2450
-Wire Wire Line
-	5200 2250 5550 2250
 Connection ~ 5200 2250
 Wire Wire Line
 	5200 2300 5200 2250
@@ -89,17 +78,6 @@ F 1 "1uF" H 5292 2355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5200 2400 50  0001 C CNN
 F 3 "3013482" H 5200 2400 50  0001 C CNN
 	1    5200 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:MIC5504-3.3YM5 U11
-U 1 1 5E937792
-P 6100 2350
-F 0 "U11" H 6100 2717 50  0000 C CNN
-F 1 "MIC5504-3.3YM5" H 6100 2626 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6100 1950 50  0001 C CNN
-F 3 "2510377" H 5850 2600 50  0001 C CNN
-	1    6100 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1075,4 +1053,21 @@ Text Label 3400 3100 0    50   ~ 0
 D_M
 Text Label 3400 3200 0    50   ~ 0
 D_P
+$Comp
+L Regulator_Linear:LM1117-3.3 U11
+U 1 1 5EA1D791
+P 6100 2250
+F 0 "U11" H 6100 2492 50  0000 C CNN
+F 1 "LM1117-3.3" H 6100 2401 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6100 2250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 6100 2250 50  0001 C CNN
+	1    6100 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2250 5800 2250
+Wire Wire Line
+	6100 2650 6100 2550
+Wire Wire Line
+	6400 2250 6700 2250
 $EndSCHEMATC
